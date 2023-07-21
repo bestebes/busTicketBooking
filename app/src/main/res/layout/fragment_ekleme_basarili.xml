@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.EklemeBasarili">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewEklemeBasarili"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="180dp"
+        app:cardBackgroundColor="#EFACAC">
+
+        <TextView
+            android:id="@+id/textViewEklemeBasarili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Biletiniz Başarıyla Alındı!"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonEklemeBasarili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anasayfaya Dön"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

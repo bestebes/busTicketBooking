@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AccountFragment">
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:hint="E-mail"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Şifre"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/sifreTekrar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:hint="Şifre Tekrar"
+        android:inputType="textPassword"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchAuth"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:text="Kayıt Ol" />
+
+    <Button
+        android:id="@+id/buttonGiris"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="190dp"
+        android:text="Giriş Yap" />
+
+    <Button
+        android:id="@+id/buttonKayit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="190dp"
+        android:text="Kayıt Ol"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="110dp"
+        android:text="Henüz bir hesabın yok mu?" />
+
+</FrameLayout>

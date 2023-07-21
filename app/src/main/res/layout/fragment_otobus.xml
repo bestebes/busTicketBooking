@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".view.OtobusFragment">
+
+    <ImageButton
+        android:id="@+id/buttonAirplane"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_gravity="left"
+        android:backgroundTint="#00FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="ucakFragment"
+        android:scaleType="centerCrop"
+        android:src="@drawable/airplane"
+        android:text="UCAK" />
+
+    <ImageButton
+        android:id="@+id/buttonBus"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="53dp"
+        android:backgroundTint="#00FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="otobusFragment"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bus_1"
+        android:text="OTOBUS" />
+
+    <ImageButton
+        android:id="@+id/buttonTrain"
+        android:layout_width="105dp"
+        android:layout_height="54dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#00FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="trenFragment"
+        android:scaleType="centerCrop"
+        android:src="@drawable/train" />
+
+    <ImageButton
+        android:id="@+id/buttonFeri"
+        android:layout_width="102dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="47dp"
+        android:backgroundTint="#00FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="feribotFragment"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ferryboat2" />
+    <ImageButton
+        android:id="@+id/buttonSwap"
+        android:layout_width="29dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="135dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/swap"
+        />
+
+    <Button
+        android:id="@+id/buttonBiletBul"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Otobus Bileti Bul"
+        android:visibility="invisible" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchGidisDonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="Gidiş-Dönüş" />
+
+    <Spinner
+        android:id="@+id/spinnerNereden"
+        android:layout_width="280dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal|right"
+        android:layout_marginTop="110dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/spinnerNereye"
+        android:layout_width="280dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:clickable="false"
+        android:ems="10" />
+
+    <Button
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:id="@+id/buttonGidis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom|left"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:gravity="left|center"
+        android:text="Gidiş Tarihi" />
+
+    <Button
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:id="@+id/buttonDonus"
+        android:background="@drawable/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom|left"
+        android:gravity="left|center"
+        android:layout_marginBottom="190dp"
+        android:ems="10"
+        android:text="Dönüş Tarihi"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewGidis"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_gravity="center|bottom|right"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/textViewDonus"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_gravity="center|bottom|right"
+        android:layout_marginBottom="190dp"
+        android:ems="10"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="53dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center|left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/red_frame" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="Nereden"
+        android:textAllCaps="true"
+        android:textColor="#E3E3E3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="92dp"
+        android:layout_height="53dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="175dp"
+        android:gravity="center|left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/red_frame" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:text="Nereye"
+        android:textAllCaps="true"
+        android:textColor="#E3E3E3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center|bottom|left"
+        android:layout_marginBottom="250dp"
+        android:padding="10dp"
+        android:src="@drawable/right_arrow_icon_5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center|bottom|left"
+        android:layout_marginBottom="190dp"
+        android:padding="10dp"
+        android:src="@drawable/right_arrow_icon_5"
+        android:visibility="invisible" />
+
+</FrameLayout>

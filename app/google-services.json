@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398557590594",
+    "project_id": "beste1-ff452",
+    "storage_bucket": "beste1-ff452.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398557590594:android:8ae94e902b4fb7f6cde9db",
+        "android_client_info": {
+          "package_name": "com.example.beste1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398557590594-7o0g9l5aa13ivqjm805gl1nkj1dmsndt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-6PkGM66OS314Ynh2WiYCrViyjVEydxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398557590594-7o0g9l5aa13ivqjm805gl1nkj1dmsndt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.KoltukSecimi">
+
+    <ImageView
+        android:id="@+id/imageViewDireksiyon"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/direksiyon" />
+
+    <ImageButton
+        android:id="@+id/koltuk1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="7"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="9"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="11"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="12"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="13"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="14"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="15"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="440dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="16"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="440dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="17"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="440dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="440dp"
+        android:gravity="center"
+        android:text="18"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:text="19"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:text="20"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/koltuk21"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/bus_seat" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:text="21"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBos"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="--- Boş ---"/>
+
+    <TextView
+        android:id="@+id/textViewKadin"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#F60404"
+        android:text="--- Kadın ---"/>
+
+    <TextView
+        android:id="@+id/textViewErkek"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#1C03FB"
+        android:text="--- Erkek ---"/>
+
+    <Button
+        android:id="@+id/buttonDevam"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#803D8510"
+        android:visibility="invisible"
+        android:text="Devam Et" />
+
+
+</FrameLayout>

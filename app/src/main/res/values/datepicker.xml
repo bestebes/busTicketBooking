@@ -1,0 +1,7 @@
+<resources>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlActivated">#CC0000</item>
+        <item name="colorAccent">#CC0000</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+    </style>
+</resources>

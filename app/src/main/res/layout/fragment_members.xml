@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MembersFragment">
+
+    <Button
+        android:id="@+id/buttonSeyahatlerim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="center|left"
+        android:text="Seyahatlerim"
+        android:padding="10dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonKampanyalarim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="left|center"
+        android:text="Kampanyalarım"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonProfilim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="center|left"
+        android:text="Profilim"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonYardim"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/btn"
+        android:gravity="left|center"
+        android:text="Yardım"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonAyarlar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="left|center"
+        android:text="Ayarlar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonHakkimizda"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="left|center"
+        android:text="Hakkımızda"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonCikis"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:gravity="left|center"
+        android:text="Çıkış Yap"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/buttonAlarm"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:backgroundTint="@null"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="160dp"
+        android:gravity="center|left"
+        android:textColor="#FFFFFF"
+        android:text="Alarmlarım" />
+
+    <ImageView
+        android:id="@+id/imageSeyahatlerim"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#00FFFFFF"
+        android:padding="5dp"
+        android:src="@drawable/travel" />
+
+    <ImageView
+        android:id="@+id/imageAccount"
+        android:layout_marginRight="30dp"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="right|top"
+        android:padding="10dp"
+        android:layout_marginTop="215dp"
+        android:src="@drawable/user" />
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageViewLogout"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="460dp"
+        android:src="@drawable/log_out" />
+
+    <ImageView
+        android:id="@+id/imageViewSettings"
+        android:padding="10dp"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="325dp"
+        android:src="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/imageViewOffers"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:padding="10dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/offer" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:src="@drawable/help1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:padding="10dp"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/information" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:padding="10dp"
+        android:layout_width="66dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center|top|right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/alarm" />
+
+
+</FrameLayout>
